@@ -1,1 +1,3 @@
-# Forecasting-Singapore-Temperature
+# Forecasting Singapore Temperature
+## Data Preperation 
+- 
