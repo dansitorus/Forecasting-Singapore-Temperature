@@ -20,3 +20,8 @@ Various ARIMA models were compared, and ARIMA(1,1,1) was selected as the best fi
 The plot below showcases the forecasting of the next 10 years with the Arima model after the model has been checked through diagnostic in R. The red line shows the forecasted values with Arima and forecasts a steep increase followed by a gradual increase in temperature.
 ![image](https://github.com/user-attachments/assets/c163b801-7f14-44d9-8d6b-438e5502dcb5)
 
+## Best Model Selection
+After comparing four models, the ARIMA model emerged as the best fit for the dataset, boasting the lowest AIC value, along with lower RMSE and MAE, indicating better predictive performance. The MASE for the ARIMA model was also below 1, outperforming a naïve model. In contrast, the linear regression model, despite having a significant p-value and high variance proportion, might not be the best fit for forecasting due to potential issues highlighted by the Durbin-Watson test. The ARIMA model's superior fit makes it the most reliable choice for this dataset.
+
+Short and Medium-Term Future
+The models predict a positive trend in temperature, suggesting a potential increase in daily temperatures in Singapore. While the exact amount of temperature increase will depend on various external factors, the trend aligns with global climate change patterns. The National Environment Agency has also indicated that more hot days and warm nights could become the norm by the end of the century, supporting our forecast. As temperatures rise, the emphasis on green energy and sustainability will be crucial to mitigating the impact. Proactive planning and early action will be vital for Singapore to address these challenges effectively.
